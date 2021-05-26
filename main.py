@@ -15,7 +15,7 @@ def assistant_speaks(output):
     # num to rename every audio file
     # with different name to remove ambiguity
     num += 1
-    print("Q2 : ", output)
+    print("Appy : ", output)
 
     toSpeak = gTTS(text=output, lang='en', slow=False)
     # saving the audio file given by google text to speech
@@ -57,7 +57,7 @@ def process_text(input):
             return
 
         elif "who are you" in input or "define yourself" in input:
-            speak = '''Hello, I am Q2 , Your personal Assistant. 
+            speak = '''Hello, I am Appy , Your personal Assistant. 
 			I am here to make your life easier. You can command me to perform 
 			various tasks such as calculating sums or opening applications etcetra'''
             assistant_speaks(speak)
@@ -68,7 +68,7 @@ def process_text(input):
             assistant_speaks(speak)
             return
 
-        elif "Hello Q2 " in input or "Who are you" in input:
+        elif "Hello Appy " in input or "Who are you" in input:
             speak = '''Hello, I am Q2 , Your personal Assistant. 
             I am here to make your life easier. You can command me to perform 
             various tasks such as calculating sums or opening applications etcetra'''

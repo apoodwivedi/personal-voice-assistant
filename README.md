@@ -7,3 +7,9 @@ Also, for calculating mathematical expression WolframAlpha API can be used.
 Playsound Package is used to play the saved mp3 sound from the system.
 
 Python external Package Requirements:
+-> gTTS – Google Text To Speech, for converting the given text to speech
+-> speech_recognition – for recognizing the voice command and converting to text
+-> selenium – for web based work from browser
+-> wolframalpha – for calculation given by user
+-> playsound – for playing the saved audio file.
+-> pyaudio – for voice engine in python
